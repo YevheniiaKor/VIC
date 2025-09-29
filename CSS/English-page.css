@@ -27,6 +27,7 @@ body {
 .active {
   background-color: #f0c506;
 }
+
 .grid-container {
     display: grid;
     grid-template-areas:
