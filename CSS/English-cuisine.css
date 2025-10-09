@@ -1,42 +1,55 @@
-.grid-container {
-    display: grid;
-    grid-template-areas:
-      'main main main left left left'
-      'main main main left left left'
-      'main main main left left left';
-    gap: 10px;
-    padding: 50px;
-    height: 350px;
-}
-
-.item1 { grid-area: main; }
-.item2 { grid-area: left; }
- 
-.item1, .item2 {
-    padding: 20px;
-    border-radius: 8px;
-    object-fit: cover;
-    background-color: #f7c177;
-    color: #515151;
-    font-size: 1.1em;
-    text-align: left;
-}
- 
-.item1 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Fyller boksen uten å forvrenge bildet */
-    display: block; /* Fjerner ekstra mellomrom under bildet */
-}
- 
-.item2 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Fyller boksen uten å forvrenge bildet */
-    display: block; /* Fjerner ekstra mellomrom under bildet */
+body {margin:0;}
+body {
+  background-color: rgb(254, 215, 164);
 }
 
 
+.icon-bar {
+  width: 100%;
+  background-color: #fceccf;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: rgb(16, 15, 15);
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #fe8d02;
+}
+
+.active {
+  background-color: #f0c506;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+img {
+  max-width: 75%;
+  max-height:100%;
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+
+h1 {
+  background-color: rgba(75, 133, 55, 0.414);
+  color: rgb(61, 58, 58);
+}
 
 /* ---------- Mobiltilpasning ---------- */
 @media (max-width: 768px) {
