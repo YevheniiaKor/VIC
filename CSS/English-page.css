@@ -66,38 +66,6 @@ body {
     display: block; /* Fjerner ekstra mellomrom under bildet */
 }
 
-.site-footer {
-  background-color: #f0c506;
-  padding: 20px 0;
-}
-
-.footer-container {
-  display: flex;
-
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.footer-nav,
-.footer-contacts {
-  margin: 0;
-}
-
-.footer-nav li,
-.footer-contacts li {
-  list-style: none;
-  margin-bottom: 5px;
-}
-
-.footer-nav a,
-.footer-contacts a {
-  text-decoration: none;
-  color: #b39595;
-}
 
 
 /* ---------- Mobiltilpasning ---------- */
