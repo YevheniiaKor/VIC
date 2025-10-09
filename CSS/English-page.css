@@ -66,7 +66,15 @@ body {
     display: block; /* Fjerner ekstra mellomrom under bildet */
 }
 
-
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgba(235, 174, 68, 0.411);
+   color: rgb(236, 156, 5);
+   text-align: left;
+}
 
 /* ---------- Mobiltilpasning ---------- */
 @media (max-width: 768px) {
