@@ -57,7 +57,7 @@ div.desc {
   width: 24.99999%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
@@ -76,6 +76,15 @@ div.desc {
   clear: both;
 }
 
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgba(235, 174, 68, 0.411);
+   color: rgb(236, 156, 5);
+   text-align: left;
+}
 
 /* ---------- Mobiltilpasning ---------- */
 @media (max-width: 768px) {
