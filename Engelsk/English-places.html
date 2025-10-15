@@ -16,8 +16,46 @@
   <a href="../Engelsk/English-symbols.html"><i class="fa fa-paw"></i></a>
 </div>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">Hystorical places</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Restaurants</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Events</button>
+</div>
+
+<div id="London" class="tabcontent">
+  <h3>Intramuros. Manila</h3>
+  <img src="../Bilder/English Web site/IntramurosP.jpg" width="460" height="345">
+  <p>London is the capital city of England.</p>
+  <p>sdsds</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
 
 <footer>
    <p>Company © W3docs. All rights reserd.</p>
