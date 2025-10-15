@@ -29,7 +29,6 @@ body {
 }
 
 
-
 .grid-container {
     display: grid;
     grid-template-areas:
@@ -74,8 +73,8 @@ body {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: rgba(235, 174, 68, 0.411);
-   color: rgb(236, 156, 5);
+   background-color: rgba(235, 174, 68, 0.267);
+   color: rgb(236, 155, 5);
    text-align: left;
 }
 
