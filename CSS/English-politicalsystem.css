@@ -78,6 +78,9 @@ body {
    text-align: left;
 }
 
+a {
+  color: #ff510066;
+}
 
 /* ---------- Mobiltilpasning ---------- */
 @media (max-width: 768px) {
