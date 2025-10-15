@@ -29,6 +29,7 @@ body {
 }
 
 
+
 .grid-container {
     display: grid;
     grid-template-areas:
@@ -70,6 +71,7 @@ body {
 .container > div.footer {
   grid-area: footer;
 }
+
 
 /* ---------- Mobiltilpasning ---------- */
 @media (max-width: 768px) {
