@@ -84,10 +84,12 @@ body {font-family: Arial;}
 
 footer {
   padding: 10px 20px;
-  background: #7affb2ab;
-  color: white;
+  background: #edf852ab;
+  color: rgb(235, 134, 10);
 }
       
 a {
-  color: #00aaff78;
+  color: #e2790f78;
 }
+
+
