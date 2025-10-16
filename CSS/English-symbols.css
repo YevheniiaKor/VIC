@@ -38,6 +38,18 @@ a {
   color: #ff510066;
 }
 
+
+hr.new5 {
+  border: 10px solid rgb(244, 138, 18);
+  border-radius: 5px;
+}
+
+
+.video-container iframe {
+  display: block;
+  margin: 0 auto; /* Centers horizontally */
+}
+
 /*-- gallery --*/
 div.gallery {
   display: flex;

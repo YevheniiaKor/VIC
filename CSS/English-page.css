@@ -66,6 +66,12 @@ body {
     display: block; /* Fjerner ekstra mellomrom under bildet */
 }
 
+
+.video-container iframe {
+  display: block;
+  margin: 0 auto; /* Centers horizontally */
+}
+
 .footer {
    position: fixed;
    left: 0;
