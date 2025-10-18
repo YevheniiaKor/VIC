@@ -67,10 +67,6 @@ body {
 }
 
 
-.video-container iframe {
-  display: block;
-  margin: 0 auto; /* Centers horizontally */
-}
 
 .footer {
    position: fixed;
