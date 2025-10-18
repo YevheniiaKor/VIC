@@ -50,6 +50,14 @@ hr.new5 {
   margin: 0 auto; /* Centers horizontally */
 }
 
+body {
+  background-image: url("../Bilder/1000855986PP.png");
+  background-repeat: no-repeat;
+background-position: right 0% bottom 30%;
+  margin-right: 0px;
+background-attachment: local scroll;
+}
+
 /*-- gallery --*/
 div.gallery {
   display: flex;
