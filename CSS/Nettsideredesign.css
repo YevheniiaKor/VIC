@@ -55,6 +55,8 @@ a {
   color: #9553ff;
 }
 
+
+
 @media screen and (max-width: 700px) {
   .sidebar {
     width: 100%;
