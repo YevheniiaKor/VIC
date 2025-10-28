@@ -3,6 +3,11 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+body {
+  background-color: #c4befa;
+}
+
+
 .sidebar {
   margin: 0;
   padding: 0;
@@ -34,6 +39,20 @@ div.content {
   margin-left: 200px;
   padding: 1px 16px;
   height: 1000px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(31, 31, 31);
+   color: rgb(255, 255, 255);
+   text-align: center;
+}
+
+a {
+  color: #9553ff;
 }
 
 @media screen and (max-width: 700px) {
