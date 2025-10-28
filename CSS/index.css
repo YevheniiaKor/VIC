@@ -1,3 +1,28 @@
 body {
-  background-color: rgb(124, 177, 142);
+  background-color: rgb(255, 211, 218);
+}
+
+/* ---------- Mobiltilpasning ---------- */
+@media (max-width: 768px) {
+ 
+  h1 {
+      font-size: 28px;
+  }
+ 
+  .grid-container {
+      grid-template-areas:
+          "main"
+          "left";
+      grid-template-columns: 1fr;
+      padding: 20px;
+      gap: 15px;
+  }
+ 
+  .item1, .item2 {
+      font-size: 1em;
+      padding: 15px;
+  }
+.item1 img, .item2 img {
+  height: auto;
+}
 }
