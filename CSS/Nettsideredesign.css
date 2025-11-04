@@ -46,7 +46,7 @@ div.content {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: rgb(31, 31, 31);
+   background-color: rgba(31, 31, 31, 0.565);
    color: rgb(255, 255, 255);
    text-align: center;
 }
@@ -55,7 +55,36 @@ a {
   color: #9553ff;
 }
 
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  gap:1px;
+ 
+}
+.container div {
+  background-color: rgb(132, 120, 184);
+  padding: 10px;
+}
 
+.container div.header {
+  grid-area: header;
+  text-align: center;
+}
+
+.cont div.cont {
+  grid-area: content;
+  align-content: center;
+  background-color: hsl(265, 40%, 94%);
+}
+
+.container div.content {
+  grid-area: content;
+  align-content: center;
+  text-align: top center;
+}
 
 @media screen and (max-width: 700px) {
   .sidebar {
@@ -70,6 +99,6 @@ a {
 @media screen and (max-width: 400px) {
   .sidebar a {
     text-align: center;
-    float: none;
+    float: right;
   }
 }
