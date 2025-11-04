@@ -41,19 +41,15 @@ div.content {
   height: 1000px;
 }
 
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: rgba(31, 31, 31, 0.565);
-   color: rgb(255, 255, 255);
-   text-align: center;
-}
-
 a {
   color: #9553ff;
 }
+
+.footer {
+  height: 100px; 
+  margin-bottom: -100px; 
+}
+
 
 .container {
   display: grid;
@@ -66,7 +62,7 @@ a {
 }
 .container div {
   background-color: rgb(132, 120, 184);
-  padding: 10px;
+  padding: 20px;
 }
 
 .container div.header {
@@ -77,13 +73,36 @@ a {
 .cont div.cont {
   grid-area: content;
   align-content: center;
-  background-color: hsl(265, 40%, 94%);
+  text-align: center;
+  background-color: hsl(265, 94%, 51%);
 }
 
 .container div.content {
   grid-area: content;
   align-content: center;
   text-align: top center;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(78, 27, 149); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 0, 0); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f5f3f3; 
 }
 
 @media screen and (max-width: 700px) {
