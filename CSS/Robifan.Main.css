@@ -5,9 +5,17 @@ body {
 .content {
   max-width: 550px;
   margin: auto;
-  background: white;
+  background: #7C8363;
   padding: 10px;
 }
+
+.conten {
+  max-width: 550px;
+  margin: auto;
+  background: #31473A;
+  padding: 10px;
+}
+
 
 .avatar {
   vertical-align: middle;
@@ -15,6 +23,8 @@ body {
   height: 50px;
   border-radius: 50%;
 }
+
+
 
 h1 {
   font-family: 'Fugaz One';font-size: 22px;
