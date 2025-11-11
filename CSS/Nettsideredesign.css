@@ -96,14 +96,29 @@ a {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(0, 0, 0); 
+  background: rgb(255, 255, 255); 
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #f5f3f3; 
+  background: #000000; 
 }
+
+
+.container1 {
+grid-template-areas: "a a a" "b c c" "b c c";
+background-color: #190707;
+
+}
+
+.container div.cont {
+  grid-area: content;
+  align-content: flex-end;
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+}
+
 
 @media screen and (max-width: 700px) {
   .sidebar {
