@@ -80,7 +80,7 @@ a {
 .container div.content {
   grid-area: content;
   align-content: center;
-  text-align: top center;
+  text-align:start;
 }
 
 /* width */
