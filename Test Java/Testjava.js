@@ -1,2 +1,24 @@
-let randomNum = Math.random() * 6;
-console.log(randomNum);
+//Random number generator
+
+//min and max numbers
+
+//const min = 50;
+//const max = 100;
+
+//let randomNum = Math.floor (Math.random() * (max - min)) + min;
+
+//let randomNum = Math.floor (Math.random() * 100) + 1;
+
+//console.log(randomNum);
+
+const myButton = document.getElementById("myButton");
+
+const myLabel = document.getElementById("myLabel");
+const min = 1;
+const max = 6;
+let randomNum;
+
+myButton.onclick = function(){
+    randomNum = Math.floor(Math.random() * max) + min;
+    myLabel.textContent = randomNum;
+}

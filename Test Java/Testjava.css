@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(205, 156, 93);
+    font-family: Verdana;
+    text-align: center;
+}
+
+#myButton{
+    background-color: rgb(167, 41, 34);
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
+#myLabel{
+  font-size: 3em;  
+}
