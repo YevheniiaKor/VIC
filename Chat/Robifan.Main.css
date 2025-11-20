@@ -1,5 +1,17 @@
 body {
-  background: #555;
+  background: hsl(70, 17%, 73%);
+}
+
+h1 {
+  color:aliceblue
+}
+
+p1 {
+  color: aliceblue;
+}
+
+p2 {
+text-align: right;
 }
 
 .content {
