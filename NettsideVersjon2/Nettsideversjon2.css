@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(94, 135, 135);
+}
+
+#Apple {
+    border-radius: 1em;
+    border-color: aquamarine;
+}
+
+h1 {
+    color: blue;
+    text-decoration: overline underline;
+    text-align: center;
+}
+
+div.content {
+text-align: center;
+}
+
+label {
+    color: aquamarine;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
