@@ -16,3 +16,24 @@ header {
   padding: 10px;
   text-align: center;
 }
+
+.panel1 {
+  margin: 5px;
+  text-align: center;
+  font-size:25px;
+  padding: 40px;
+  background-color: #a73939;
+}
+
+
+.panel2 {
+  font-size:45px;
+  background-color: #a73939;
+}
+
+.panel3 {
+  margin: 0px;
+  padding: 70px;
+  font-size:20px;
+  background-color: #a73939;
+}
