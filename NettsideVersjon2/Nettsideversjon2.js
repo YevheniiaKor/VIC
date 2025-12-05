@@ -9,7 +9,7 @@ submitAnswer.onclick = function() {
         AnswerResult.textContent = `Welcome to Applepie Club!!`;
     }
 
-    else if  
+    else if
     (Answer === "No" || Answer === "no") {
         AnswerResult.textContent = `Oh. Well, you must like applepies to be part of our Applepie Club`
 
