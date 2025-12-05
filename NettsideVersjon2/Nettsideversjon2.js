@@ -16,6 +16,6 @@ submitAnswer.onclick = function() {
     }
 
     else {
-        AnswerResult.textContent = `You didn't answer the question!`;
+        AnswerResult.textContent = `Please answer Yes or No!`;
     }
 };

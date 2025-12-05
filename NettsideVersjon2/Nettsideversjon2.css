@@ -6,26 +6,23 @@ body {
 #Apple {
     border-radius: 1em;
     border-color: aquamarine;
+    margin: 1px 0;
 }
 
 p {
     color: #e5e7eb;
+    margin: 3px 0;
 }
 
 h1 {
     color: blue;
     text-decoration: overline underline;
     text-align: center;
+    margin: 3px ;
 }
 
 div.content {
 text-align: center;
-}
-
-div.container {
-background-color: #4035b3;
-padding: 0px;
-margin: 1px;
 }
 
 label {
