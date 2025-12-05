@@ -8,6 +8,10 @@ body {
     border-color: aquamarine;
 }
 
+p {
+    color: #e5e7eb;
+}
+
 h1 {
     color: blue;
     text-decoration: overline underline;
@@ -16,6 +20,12 @@ h1 {
 
 div.content {
 text-align: center;
+}
+
+div.container {
+background-color: #4035b3;
+padding: 0px;
+margin: 1px;
 }
 
 label {
@@ -89,7 +99,7 @@ label {
 
 #spiller1 p:first-child,
 #spiller2 p:first-child {
-  font-weight: 600;
+  font-weight: 60;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #9ca3af;
@@ -98,19 +108,19 @@ label {
 
 #spiller1 p:last-child,
 #spiller2 p:last-child {
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 
 #rundeholder p {
-  font-size: 1.8rem;
+  font-size: 1rem;
   font-weight: 700;
   margin-top: 0.3rem;
 }
 
 #spiller1valg,
 #spiller2valg {
-  font-size: 2.4rem;
+  font-size: 1rem;
   color: #e5e7eb;
   display: flex;
   flex-direction: column;
@@ -139,7 +149,7 @@ label {
 }
 
 #versus {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -187,13 +197,13 @@ label {
 /* Knapper */
 
 #knapper button {
-  padding: 0.6rem 1.2rem;
+  padding: 0.6rem 1.1rem;
   flex: 1;
   border-radius: 999px;
   border: 1px solid #1d4ed8;
   background: #1d4ed8;
   color: #e5e7eb;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 500;
   cursor: pointer;
   margin: 0.2rem;
@@ -243,7 +253,7 @@ label {
 
 #restart,
 #start {
-  height: 70%;
+  height: 60%;
   background: red;
 }
 
