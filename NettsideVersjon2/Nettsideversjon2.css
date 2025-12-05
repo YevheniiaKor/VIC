@@ -7,6 +7,11 @@ body {
     border-radius: 1em;
     border-color: aquamarine;
     margin: 1px 0;
+
+}
+
+#submitAnswer {
+    margin-top: 10px;
 }
 
 p {
@@ -29,10 +34,13 @@ label {
     color: aquamarine;
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 60px;
 }
+
 
 .topp {
     color: #4035b3;
     font-size: 30px;
     text-align: center;
+    margin-top: 40px;
 }
