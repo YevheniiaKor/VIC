@@ -36,8 +36,10 @@ header {
 
 .image {
   display: block;
-  width: 100%;
+  width: 90%;
   height: auto;
+  margin-left: 100px;
+  margin-right: 250px;
 }
 
 .overlay {
@@ -47,9 +49,11 @@ header {
   right: 0;
   background-color: #008CBA;
   overflow: hidden;
-  width: 100%;
+  width: 90%;
   height:0;
   transition: .5s ease;
+   margin-left: 100px;
+  margin-right: 250px;
 }
 
 .container:hover .overlay {
