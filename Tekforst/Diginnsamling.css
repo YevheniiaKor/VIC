@@ -5,6 +5,10 @@ body {
   text-align: center;
 }
 
+p1 {
+  font-size: 20px;
+}
+
 /*First header "As-Aksjon 2025"*/
 header {
   background-color: #5d1c1c;
