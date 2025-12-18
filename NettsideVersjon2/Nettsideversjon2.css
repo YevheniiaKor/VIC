@@ -1,8 +1,9 @@
-/**/
+/*Body Start*/
 body {
     background-color: rgb(94, 135, 135);
 }
 
+/*Input Text og Bilde*/
 #Apple {
     border-radius: 1em;
     border-color: aquamarine;
@@ -10,8 +11,26 @@ body {
 
 }
 
+
+img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 #submitAnswer {
     margin-top: 10px;
+    cursor: pointer;
+    font-size: 1.5em;
+    border-radius: 20px;
+    
 }
 
 p {
@@ -35,8 +54,13 @@ label {
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     margin-bottom: 60px;
+    margin-top: 60px;
 }
 
+#AnswerResult {
+margin-top: 20px;
+margin-bottom: 20px;
+}
 
 .topp {
     color: #4035b3;
