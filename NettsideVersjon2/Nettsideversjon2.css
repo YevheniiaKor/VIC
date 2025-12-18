@@ -12,6 +12,7 @@ body {
 }
 
 
+/*Apple pie bilde*/
 img {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -22,9 +23,11 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 15%;
 }
 
+
+/*Button "Submit"*/
 #submitAnswer {
     margin-top: 10px;
     cursor: pointer;
@@ -33,11 +36,13 @@ img {
     
 }
 
+/*Tekst Stein Saks Papir*/
 p {
     color: #e5e7eb;
     margin: 3px 0;
 }
 
+/*Answer for question "Do you like applepies"*/
 h1 {
     color: blue;
     text-decoration: overline underline;
@@ -45,10 +50,12 @@ h1 {
     margin: 3px ;
 }
 
+/*Content Applepie*/
 div.content {
 text-align: center;
 }
 
+/*Label for "Do you like applepies?"*/
 label {
     color: aquamarine;
     font-size: 40px;
@@ -57,11 +64,13 @@ label {
     margin-top: 60px;
 }
 
+/*Answer result for "Do you like applepies?"*/
 #AnswerResult {
 margin-top: 20px;
 margin-bottom: 20px;
 }
 
+/*Header for Stein Saks Papir*/
 .topp {
     color: #4035b3;
     font-size: 30px;
