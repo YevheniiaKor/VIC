@@ -27,44 +27,24 @@
   </div>
 </div>
 
+<hr class="new5">
+
 
 <!--Start Stein Saks Ppapir-->
-<header class="topp">Let's play then! How about rock paper scissors?</header>
-    <main class="main">
-      <div id="spiller1">
-        <p id="Spillernav1">Spiller2</p>
-        <p id="Spiller1_score">0</p>
-      </div>
-      <div id="rundeholder">
-        Runde
-        <p id="runde">0</p>
-      </div>
-      <div id="spiller2">
-        <p id="Spillernavn2">Spiller2</p>
-        <p id="Spiller2_score">0</p>
-      </div>
-      <div id="spiller1valg">
-        Ditt valg
-        <img id="spiller1_bilde" src="" alt="Har du ikke valgt enda?" />
-      </div>
-      <div id="versus"></div>
-      <div id="spiller2valg">
-        Maskinens Valg
-        <img id="spiller2_bilde" src="" alt="gjenstår å se" />
-      </div>
-      <div id="knapper">
-        <button id="start">Spill</button>
-        <div id="valg">
-          <button id="knapp1">Stein</button>
-          <button id="knapp2">saks</button>
-          <button id="knapp3">Papir</button>
-        </div>
-        <button id="restart">Restart</button>
-      </div>
-    </main>
-    <footer class="bunn"></footer>
+<h2>Let's Play!</h2>
 
-  
+<div class="choices">
+ <button onclick="playGame('rock')">🪨</button>
+ <button onclick="playGame('paper')">📜</button>
+ <button onclick="playGame('scissors')">✂️</button>
+</div>
+
+<div id="playerDisplay"> Player: </div>
+<div id="computerDisplay"> Computer: </div>
+<div id="resultDisplay"></div>
+
+
+
 <!--Java-->
 <script src="Nettsideversjon2.js"></script>
 <script src="SSP.js"></script>
