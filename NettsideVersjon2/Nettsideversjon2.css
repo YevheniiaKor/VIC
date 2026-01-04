@@ -91,6 +91,7 @@ h2 {
 
 }
 
+/*Buttons for valg*/
 .choices {
     text-align: center;
 }
@@ -130,4 +131,24 @@ h2 {
 
 .redText, #computerScoreDisplay {
     color: #fd6363;
+}
+
+/*Heart*/
+
+.BHeart {
+    padding: 70px;
+    text-align: center;
+}
+
+
+#Heart{
+    font-size: 10em;
+    border-radius: 1000px;
+    background-color: #f9b8ed(200, 100, 0);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+#Heart:hover {
+    background-color: #e8b7f6;
 }
