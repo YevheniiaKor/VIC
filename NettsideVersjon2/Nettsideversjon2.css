@@ -98,5 +98,36 @@ h2 {
 .choices button {
     font-size: 6em;
     margin: 0 5px;
+    cursor: pointer;
+    background-color: #4e479c(200,100,0);
+    transition: background-color 0.5s ease;
 }
 
+.choices button:hover {
+    background-color: #4e479c;
+}
+
+#playerDisplay, #computerDisplay {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#resultDisplay {
+    font-size: 4em;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.scoreDisplay {
+    font-size: 30px;
+    text-align: center;
+}
+
+.greenText, #playerScoreDisplay {
+    color: #7bfc91c5;
+}
+
+.redText, #computerScoreDisplay {
+    color: #fd6363;
+}
